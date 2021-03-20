@@ -1,0 +1,195 @@
+/* Alli Roof Portfolio */
+/* CSS File */
+
+/* Table of Contents 
+---------------------------------------
+- Typography
+- Base Styles
+*/
+
+/* Typography */
+.resume h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 1.72px;
+    text-transform: uppercase;
+}
+.resume h2 {
+    color: #F4F1EC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.resume h3 {
+    color: #9C7952;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1.72px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.resume h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.resume p {
+    color: #2D3412;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+.resume ul {
+    color: #2D3412;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+.resume .gridDetails h2 {
+    text-align: center;
+    text-decoration: none;
+}
+.resume .gridDetails p {
+    color: #2D3412;
+    text-align: center;
+}
+.resume .gridDetails .far, .resume .gridDetails .fas {
+    display: flex;
+    color: #F4F1EC;
+    font-size: 50px;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+.resume .socialMediaConnect .socialMediaLink {
+    color: #F4F1EC;
+    padding: 0 5px 25px 5px;
+}
+
+/* Base Styles */
+.arlogoLT {
+    padding-bottom: 50px;
+    width: 25vw;
+}
+.gridContent {
+    padding: 25px;
+}
+.gridDetails {
+    background-color: #B7C1B6;
+    padding: 25px;
+}
+.resumeGridContainer {
+    background-color: #F4F1EC;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.resumeHeader {
+    border-bottom: 1px solid #2D3412;
+    width: 100%;
+}
+
+/* Details */
+.certCard {
+    padding: 0 0 10px 0;
+}
+.detailCard {
+    padding: 25px 0 0 0;
+}
+.detailContent {
+    padding: 10px 0 0 0;
+}
+.detailContent h2 {
+    font-size: 12px;
+}
+.detailContent h4 {
+    color: #2D3412;
+    padding: 10px 0 5px 0;
+    text-align: center;
+}
+.detailHeader {
+    border: 1px solid #2D3412;
+}
+.detailHeader h2 {
+    color: #2D3412;
+    padding: 5px;
+}
+.detailImage {
+    padding: 0 0 15px 0;
+}
+.detailTitle {
+    padding: 0 0 50px 0;
+}
+
+/* Objective */
+.objCard {
+    padding: 0 0 25px 0;
+}
+.objContent {
+    padding: 20px 0 0 0;
+}
+
+/* Education */
+.education {
+    padding: 0 0 15px 0;
+}
+.eduCardHeader {
+    display: flex;
+    justify-content: space-between;
+}
+.eduCardHeader h2 {
+    color: #2D3412;
+}
+.eduCardBottom {
+    padding: 5px 0 15px 0;
+    text-align: justify;
+}
+.eduCardLeft {
+    width: 70%;
+}
+.eduCardRight h4 {
+    align-items: center;
+    background-color: #B7C1B6;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    width: 125px;
+}
+.eduContent {
+    padding: 20px 10px 0 10px;
+}
+
+/* Experience */
+.eduCardBottom .expBold {
+    color: #9C7952;
+}
+.expContent {
+    padding: 20px 10px 0 10px;
+}
+.fa-arrow-right {
+    color: #9C7952;
+    font-size: 9px;
+    padding: 3px 10px 0 0;
+}
+ul {
+    align-items: flex-start;
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 10px ;
+}
+
+/* Skill */
+.resume .skillCard h2 {
+    color: #2D3412;
+}
+.skillCard {
+    padding: 0 0 10px 0;
+}
+.skillContent {
+    padding: 20px 0 0 0;
+}

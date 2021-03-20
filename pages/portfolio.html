@@ -1,0 +1,141 @@
+<!--Alli Roof Web Design & Development-->
+<!--HTML File -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Alli Roof Portfolio</title>
+    <!-- Stylesheet Reference(s) -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/port_styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Import Fonts from Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    <!-- Import JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+
+<!-- Navigation Bar -->
+<body>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img class="logo" src="../images/arlogo.png" alt="Alli Roof"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Portfolio</a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a class="dropdown-item" href="../pages/writing.html">Writing</a></li>
+                        <li><a class="dropdown-item" href="#">UX, Design, & Test</a></li>
+                        <li><a class="dropdown-item" href="#">Web Development</a></li>
+                        <li><a class="dropdown-item" href="#">Personal Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Page Content -->
+<article class="portfolio">
+    <div class="portHeader">
+        <h1 >My Work</h1>
+    </div>
+    <div class="portCarousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/RedWokSite.png" class="d-block carImage" alt="Red Wok Digital Mock">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/ROYoga.png" class="d-block carImage" alt="Rambling Odyssey Yoga Digital Mock">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/BrewedAwakening.png" class="d-block carImage" alt="Brewed Awakening Digital Mock">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="portAbout">
+        <h1>Welcome</h1>
+        <h3>In June, I'll be graduating from the University of Denver with a Master of Science in Software Design & Programming. Additionally, I'll be earning a certificate in Web Design & Development. As a result, my portfolio is heavily weighted to reflect the work I produced in my master's program. I've sprinkled in a few personal projects I've worked on through the years, as well.</h3>
+    </div>
+    <div class="portSummary">
+        <h1>My Specialties</h1>
+        <div class="portRow">
+            <div class="portCard">
+                <a href="../pages/writing.html"><i class="portIcon fas fa-pen-alt"></i></a>
+                <h3>Technical Writing</h3>
+                <h4>Articles, Reports, Presentations, & Publications</h4>
+            </div>
+            <div class="portCard">
+                <i class="portIcon far fa-object-group"></i>
+                <h3>UX, Design, & Testing</h3>
+                <h4>Personas, Usability Testing, Wire Frames, & Prototypes</h4>
+            </div>
+            <div class="portCard">
+                <i class="portIcon fas fa-code"></i>
+                <h3>Web Development</h3>
+                <h4>Web Applications & Miscellaneous Projects</h4>
+            </div>
+            <div class="portCard">
+                <i class="portIcon fas fa-project-diagram"></i>
+                <h3>Personal Projects</h3>
+                <h4>Works in Progress & Planned for the Future</h4>
+            </div>
+        </div>
+    </div>
+    <div class="portImages"></div>
+</article>
+
+<!-- Footer -->
+<footer>
+<div class="footer">
+    <div class="footerContainer">
+        <div class="leftFooterContainer">
+            <img src="../images/arlogo.png" class="footerLogo" alt="Alli Roof">
+        </div>
+        <div class="centerFooterContainer">
+            <div class="smLinksFooter english">
+                <a class="pageLink" href="#about">About</a>
+                <a class="pageLink" href="#contactFile">Info</a>
+                <a class="pageLink" href="pages/menu.html">Portfolio</a>
+                <a class="pageLink" href="pages/menu.html">Contact</a>
+                <a class="pageLink" href="pages/menu.html">Resume</a>
+            </div>
+            <div class="tag footerDetails">
+                Alli Roof | Web Design & Development
+            </div>
+        </div>
+        <div class="rightFooterContainer">
+            <div class="socialMediaConnect">
+                <a class="socialMediaLink fa fa-linkedin" href="https://www.linkedin.com/in/alli-r-37756436/" target="_BLANK" aria-label="LinkedIn"></a>
+                <a class="socialMediaLink fa fa-github" href="https://github.com/alliroof" target="_BLANK" aria-label="Github"></a>
+                <a class="socialMediaLink fa fa-behance" href="https://www.behance.net/alliroof" target="_BLANK" aria-label="Behance"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+    <!-- JavaScript -->
+    <script src="https://kit.fontawesome.com/8d3725dab7.js" crossorigin="anonymous"></script>
+</body>

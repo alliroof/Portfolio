@@ -1,0 +1,153 @@
+/* Alli Roof Portfolio */
+/* CSS File */
+
+/* Table of Contents 
+---------------------------------------
+- Typography
+- Base Styles
+*/
+
+/* Typography */
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+.portfolio h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 1.72px;
+    text-transform: uppercase;
+}
+.portfolio h4 {
+    font-size: 14px;
+}
+
+/* Carousel */
+.carImage {
+    width: 70vw;
+}
+.portCarousel {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 125px 0;
+}
+.portHeader {
+    padding: 125px 0 0 0;
+    text-align: center;
+}
+
+/* About */
+.portAbout {
+    background-color: #F4F1EC;
+    padding: 125px;
+    text-align: center;
+}
+.portAbout h1 {
+    padding: 0 0 15px 0;
+}
+.portAbout h3 {
+    color: #2D3412;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+}
+
+/* Summary */
+.portCard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 20vw;
+}
+.portHeader {
+    padding: 125px 0 0 0;
+}
+.portIcon {
+    color: #B7C1B6;
+    font-size: 75px;
+    padding: 50px;
+}
+.portIcon:hover {
+    color: #2D3412;
+}
+.portIconSm {
+    font-size: 25px;
+    padding: 10px;
+}
+.portImage {
+    height: auto;
+    width: 300px;
+}
+.portLinkRow {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+}
+.portRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+}
+.portRow h3 {
+    font-size: 22px;
+    padding: 0 0 10px 0;
+}
+.portRow h4 {
+    font-size: 12px;
+}
+.portSummary {
+    padding: 125px 0 125px 0;
+    text-align: center;
+}
+.ul .h3 {
+    font-size: 14px;
+}
+
+/* Navigation */
+.navbar-nav .nav-link {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.navbar .ul {
+    font-size: 16px;
+}
+.nav-tab {
+    width: 33vw;
+}
+.portfolio .nav-link.active {
+    color: #2D3412;
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+    /* Properties for Large Display */
+}
+@media (max-width: 1050px) {
+    /* Properties for Medium Display */
+    .portCard {
+        flex-wrap: wrap;
+        width: 40vw;
+    }
+    .portImage {
+        width: 250px;
+    }
+    .portAbout {
+        padding: 125px 25px 125px 25px;
+    }
+}
+@media (max-width: 480px) {
+    /* Properties for Small Display */
+    .portCard {
+        width: 80vw;
+    }
+    .portfolio h1 {
+        font-size: 35px;
+    }
+    .portfolio h4 {
+        font-size: 12px;
+    }
+}

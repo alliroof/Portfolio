@@ -1,0 +1,346 @@
+/* Alli Roof Portfolio */
+/* CSS File */
+
+/* Table of Contents 
+---------------------------------------
+- Typography
+- Base Styles
+- Navigation Bar
+- Footer
+*/
+
+/* Typography */
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 1.72px;
+    text-transform: uppercase;
+}
+h2 {
+    color: #9C7952;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h3 {
+    color: #9C7952;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1.72px;
+    margin: 0;
+    text-transform: uppercase;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+p {
+    color: #2D3412;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+ul {
+    color: #2D3412;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* Base Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.logo {
+    height: 70px;
+    padding: 0 0 0 25px;
+}
+.navbar {
+    align-items: center;
+    background-color: #F4F1EC;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    height: 90px;
+    justify-content: space-between;
+    padding: 0;
+    text-transform: uppercase;
+}
+.navbar-nav {
+    margin: none;
+    padding: 0 25px 0 0;
+    text-align: center;
+}
+.navbar-toggler {
+    background-color: #F4F1EC;
+}
+.navbar-toggler-icon {
+    color: #2D3412;
+}
+.nav-link {
+    color: #9C7952;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.nav-link.active {
+    color: #2D3412;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #2D3412;
+}
+
+/* About */
+.about {
+    display: flex;
+}
+.aboutLeft {
+    display: flex;
+    justify-content: right;
+    padding: 50px 25px 50px 0;
+    width: 50vw;
+}
+.aboutRight {
+    padding: 50px 0 50px 25px;
+    width: 400px;
+}
+.aboutTextBox {
+    padding: 15px 0 0 0;
+}
+.helloImage {
+    margin: 0 0 -40px -150px;
+    height: auto;
+    max-width: 300px;
+}
+.linkBtn {
+    background-color: #B7C1B6;
+    margin: 15px 0 0 0;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    width: 150px;
+}
+.linkBtn .pageLink:hover {
+    color: #E6E1D0;
+}
+.profileImage {
+    border-radius: 50%;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    padding: 50px;
+}
+.contactCard {
+    padding: 15px 0 0 0;
+}
+.contactCardsm {
+    padding: 15px 0 0 0;
+}
+.contactDetail {
+    align-items: center;
+    display: flex;
+    padding: 10px 0 0 0;
+}
+.contactIcon {
+    color: #E6E1D0;
+    font-size: 20px;
+    padding: 0 10px 0 0;
+    text-decoration: none;
+}
+.contactLeft {
+    background-color: #B7C1B6;
+    padding: 50px;
+    width: 40vw;
+}
+.contactLink {
+    color: #E6E1D0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.contactLink:hover {
+    color: #2D3412;
+}
+.contactRight {
+    background-color: #E6E1D0;
+    width: 60vw;
+}
+.fa-map-marker-alt {
+    padding: 0 12px 0 3px;
+}
+
+/* Footer */
+.centerFooterContainer {
+    padding: 25px;
+    text-align: center;
+    width: 60%;
+}
+.footer {
+    background-color: #F4F1EC;
+    text-align: center;
+}
+.footer .tag {
+    color: #9C7952;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1.72px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.footerContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footerLogo {
+    height: 40px;
+}
+.socialMediaConnect {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.socialMediaLink {
+    color: #9C7952;
+    font-size: 20px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.socialMediaLink:hover {
+    color: #2D3412;
+}
+.leftFooterContainer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    width: 20%;
+}
+.pageLink {
+    color: #2D3412;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 5px 0 5px;
+}
+.pageLink:hover {
+    color: #9C7952;
+    text-decoration: none;
+}
+.rightFooterContainer {
+    text-align: right;
+    padding: 25px;
+    width: 20%;
+}
+.smLinksFooter {
+    padding: 0 0 7px 0;
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+    /* Properties for Large Display */
+}
+@media (max-width: 780px) {
+    /* Properties for Medium Display */
+    /* Navigation */
+    .logo {
+        margin: 0;
+        height: 35px;
+    }
+
+    .navbar-nav {
+        margin-right: 25px;
+    }
+}
+@media (max-width: 480px) {
+    /* Properties for Small Display */
+    /* Navigation */
+    .navbar-brand {
+        margin: 0;
+    }
+    .navbar-toggler {
+        margin: 0;
+    }
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+    .navbar-nav {
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+        }
+    .navbar-toggler-icon {
+        color: #E6E1D0;
+    }
+    /* Footer */
+    .footer {
+        background-size: 100vh;
+        display: inline-block;
+        height: 100%;
+    }
+    .footerContainer {
+        display: block;
+    }
+    .footer .footerDetails{
+        padding: 10px 0 0 0;
+    }
+    .footer .footerDetails.hours {
+        text-align: right;
+    }
+    .footer .socialMediaConnect {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 15px 0;
+    }
+    .footer .socialMediaLink {
+        font-size: 18px;
+    }
+    .centerFooterContainer, .leftFooterContainer, .rightFooterContainer {
+        padding-bottom: 10px;
+        width: 100vw;
+    }
+    .centerFooterContainer .form-group {
+        padding: 0 25px 0 25px;
+    }
+}
+@media (max-height: 420px) {
+    /* Properties for Medium Display */
+    /* Navigation */
+    .navbar-nav {
+        padding: 0;
+        margin: 0;
+        margin-right: 20px;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+        }
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    .navbar-toggler-icon {
+        color: #A9A9A9;
+    }
+}
